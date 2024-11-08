@@ -1,0 +1,50 @@
+.chat-window {
+    width: 800px; /* Set a fixed width */
+    height: 1000px; /* Set a fixed height */
+    padding: 10px; /* Padding for inner content */
+    border: none; /* Remove border */
+    border-radius: 5px;
+    background-color: #2a2a2a; /* Darker background for chat window */
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto; /* Keep margin for spacing */
+}
+
+.chat-log {
+    flex: 1;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    height: 350px; /* Adjust height for the chat log */
+    background-color: #1f1f1f; /* Dark background for chat log */
+    color: #fff; /* Text color */
+}
+
+.input-section {
+    display: flex;
+    align-items: center;
+    margin-top: 10px; /* Added margin for spacing */
+}
+
+.input-field {
+    flex: 1; /* Allow input to take available space */
+    padding: 10px; /* Increased padding for better size */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    margin-right: 5px; /* Spacing between input and button */
+    background-color: #333; /* Dark background for input field */
+    color: #fff; /* Text color */
+    font-size: 16px; /* Increased font size for better readability */
+}
+
+.send-button {
+    padding: 10px 15px; /* Increased padding for button */
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Button background */
+    color: #fff; /* Button text color */
+    cursor: pointer;
+    font-size: 16px; /* Match button font size */
+}

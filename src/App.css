@@ -1,0 +1,7 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    background-color: #0d0d0d; /* Dark background */
+    color: #fff; /* Text color */
+    height: 100vh;
+}
