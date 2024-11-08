@@ -20,7 +20,7 @@ mongoose.connect('mongodb://localhost:27017/mydb', { useNewUrlParser: true, useU
 app.use('/api/auth', authRoutes);  // Use auth routes for signup and login
 
 // Cohere API route for chatbot
-const API_KEY = 'KtJtNaU3zRjNqdt0yVFiUxvnSIoMDZTFH59cWAE4';  // Directly set the Cohere API Key here
+const API_KEY = 'api key here';  // Directly set the Cohere API Key here
 
 app.post('/api/chat', async (req, res) => {
     const userInput = req.body.message;
