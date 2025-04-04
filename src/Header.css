@@ -1,0 +1,91 @@
+    /* src/Header.css */
+
+    /* Base styles for the header */
+    .header {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        border-bottom: 1px solid #ccc; /* Optional: adjust as needed */
+    }
+
+    /* Theme styles */
+    .header.dark {
+        background-color: #2a2a2a; /* Dark background */
+    }
+
+    .header.light {
+        background-color: #f8f9fa; /* Light background */
+    }
+
+    /* Button styles */
+    .header-button {
+        margin: 0 10px;
+        color: #fff; /* Default text color for dark mode */
+        background-color: #007bff; /* Button background color */
+        border: none; /* Remove default border */
+        border-radius: 5px; /* Rounded corners */
+        padding: 8px 12px; /* Button padding */
+        cursor: pointer; /* Pointer cursor on hover */
+    }
+
+    /* Text color for light mode buttons */
+    .header.light .header-button {
+        color: #000; /* Text color for light mode */
+    }
+
+    /* Header buttons alignment */
+    .header-buttons {
+        margin-left: auto; /* Push buttons to the right */
+    }
+
+    /* Modal overlay styles */
+    .modal-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Modal content styles */
+    .modal-content {
+        background-color: #211e1e; /* Dark background for the modal */
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
+    }
+
+    /* Input styles */
+    .dark-input, .light-input {
+        width: 100%; /* Full width */
+        padding: 10px; /* Padding for better appearance */
+        margin: 10px 0; /* Space between inputs */
+        border-radius: 5px; /* Rounded corners */
+    }
+
+    /* Dark input styles */
+    .dark-input {
+        background-color: #333; /* Dark background */
+        color: #fff; /* White text color */
+        border: 1px solid #555; /* Border color */
+    }
+
+    /* Light input styles */
+    .light-input {
+        background-color: #fff; /* Light background */
+        color: #000; /* Black text color */
+        border: 1px solid #ccc; /* Light border color */
+    }
+
+    /* Placeholder styles */
+    .dark-input::placeholder {
+        color: #bbb; /* Placeholder text color */
+    }
+
+    .light-input::placeholder {
+        color: #888; /* Placeholder text color */
+    }

@@ -1,0 +1,15 @@
+/* src/App.css */
+.app {
+  display: flex;
+  flex-direction: column;
+  background-color: #0d0d0d;
+  color: #fff;
+  height: 100vh;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+

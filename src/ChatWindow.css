@@ -1,0 +1,87 @@
+:ch-root {
+    --primary-color: #EEDF7A; 
+    --secondary-color: #D8A25E; 
+    --accent-color: #A04747; 
+    --background-color: #343131; 
+    --text-color: #f0f0f0; 
+    --card-background: #343131; 
+  }
+  
+  .chat-window {
+      flex: 1;
+      height: 93%;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      background-color: #2a2a2a;
+      display: flex;
+      flex-direction: column;
+      margin: 20px auto;
+  }
+  
+  .logo {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--primary-color);
+      margin-bottom: 10px; 
+      text-align: left;
+  }
+  
+  .ch-logo span {
+      color: var(--secondary-color);
+  }
+  
+  .chat-log {
+      overflow-y: auto;
+      margin-bottom: 10px;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      height: 550px;
+      background-color: #1f1f1f;
+      color: #EEDF7A;
+  }
+  
+  .ch-input-section {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+  }
+  
+  .ch-input-field {
+      flex: 3;  
+      padding: 12px;
+      border: 1px solid #EEDF7A;
+      border-radius: 5px;
+      margin-right: 10px; 
+      background-color: #333;
+      color: #EEDF7A;
+      font-size: 16px;
+      min-height: 40px; 
+  }
+  
+  .ch-send-button,
+  .ch-generate-button { 
+      padding: 8px 12px; 
+      font-size: 14px; 
+      border: none;
+      border-radius: 5px;
+      background-color: #343131;
+      color: #EEDF7A;
+      cursor: pointer;
+  }
+  
+  .ch-send-button:hover,
+  .ch-generate-button:hover {
+      background-color: var(--secondary-color);
+  }
+  
+  .ch-send-button {
+      flex: 0;  
+      margin-right: 10px;  
+  }
+  
+  .ch-generate-button {
+      flex: 0; 
+  }
+  

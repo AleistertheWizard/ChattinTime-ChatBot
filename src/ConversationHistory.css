@@ -1,0 +1,31 @@
+/* src/ConversationHistory.css */
+.conversation-history {
+    width: 200px;
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px;
+    border-right: 1px solid #333;
+    overflow-y: auto;
+}
+
+.conversation-history h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.conversation-history ul {
+    list-style: none;
+    padding: 0;
+}
+
+.conversation-history li {
+    margin: 8px 0;
+    padding: 10px;
+    background-color: #333;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.conversation-history li:hover {
+    background-color: #444;
+}
